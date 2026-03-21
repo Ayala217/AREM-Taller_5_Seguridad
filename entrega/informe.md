@@ -9,16 +9,62 @@ _Taller 5 - Seguridad_
 - Campo Conde Juan Diego
 
 ##  Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+La finalidad del taller consistió en identificar, en primer lugar, analizar y evaluar los riesgos de seguridad de un sistema mediante la metodología STRIDE, facilitando, así, la clasificación de las amenazas, según su tipo, y la proposición de estrategias de mitigación.
+La actividad tuvo lugar a partir de un análisis de los diferentes componentes o activos del sistema a los que se les relacionaron las posibles amenazas, los escenarios de ataque, los niveles de impacto y la probabilidad. A partir de esto se establecieron los controles existentes y se propusieron las medidas de mitigación con el objetivo de mejorar la seguridad del sistema y la reducción de riesgos.
 
 ##  Proceso de desarrollo
-Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+La ejecución de este trabajo se llevó a cabo de una manera ordenada y organizada de acuerdo con la metodología STRIDE, definida como la principal guía. En primer lugar, se fueron a identificar los componentes o activos más
+importantes del sistema, dado que son los puntos más significativos desde el punto de vista de la seguridad.
+
+
+En una segunda fase, se clasificaron las amenazas utilizando los tipos que determina STRIDE. Para cada amenaza se fueron a determinar, entonces, los escenarios de ataque, mediante los cuales se entendiera cómo podría llegar a cristalizar el riesgo.
+
+
+Se tomaron decisiones importantes como la de priorizar los riesgos en función del impacto y la probabilidad, de manera que se pudiera calcular un nivel de riesgo y dirigir esfuerzos para los casos más relevantes.
+
+
+En lo que a herramientas se refiere, se utilizó Excel como herramienta para estructurar la información, y permitir organizar la información y en consecuencia hacer el análisis. El modelo se fue ajustando paso a paso, ajustando las descripciones, mejorando la claridad de los escenarios y alineando las mitigaciones con los riesgos.
 
 ##  Análisis del modelo propuesto
-Incluya un análisis sobre:
-- Cómo se estructura el modelo entregado
-- Cómo representa las necesidades del cliente
-- Qué supuestos se tomaron
+
+**Estructura del modelo entregado**
+
+El modelo ha sido estructurado como una tabla, de forma que cada fila representa la amenaza concreta asociada a un componente determinado del sistema. Para ello, además del propio riesgo, se cuentan también con los siguientes campos, los cuales son clave para cada una de las amenazas consideradas:
+
+Identificación de la amenaza
+
+Activo afectado
+
+Tipo STRIDE
+
+Descripción y escenario de ataque
+
+Evaluación de impacto y probabilidad
+
+Nivel de riesgo
+
+Controles existentes
+
+Recomendaciones para su mitigación
+
+Responsable del riesgo y estado sobre su control.
+
+Esta estructura permite visibilizar y mostrar de forma clara, ordenada y trazable los riesgos.
+
+**Cómo representa las necesidades del cliente**
+
+
+El modelo responde directamente a la necesidad del cliente de poder identificar vulnerabilidades para así poder reforzar la seguridad del sistema, ya que mediante el análisis de riesgos y sus acciones de mitigación, no solo se detectan problemas, sino que además se proponen soluciones.
+El incluir responsables y estado permite dar seguimiento a la línea de base para la implementación de las medidas, lo cual es clave en un entorno real.
+Se facilita así la toma de decisiones ya que los riesgos están ordenados por su nivel; de esta forma se puede identificar en dónde se requiere mayor atención en la asignación de recursos.
+
+Qué supuestos se tomaron
+
+Para la elaboración del modelo se plantearon varios supuestos:
+
+Que los activos identificados representan los elementos más críticos del sistema.
+
+Que las mitigaciones propuestas son viables dentro del contexto técnico y organizacional del cliente.
 
 ##  Investigación complementaria
 
